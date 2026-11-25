@@ -29,4 +29,5 @@
 # Project setup and usage guide
 **How It Works**
 **Capture & Color Conversion:** `OpenCV reads each frame in BGR order and converts it to RGB (cv2.cvtColor(bgr_frame, cv2.COLOR_BGR2RGB)).`**Landmark Inference:**` MediaPipe Pose processes the RGB frame and returns 33 normalized 3D landmarks with visibility scores.`**Geometry & State Tracking:** `Visible joints (> 0.5) are converted to pixel coordinates to compute elbow, shoulder, and knee angles, classify posture, and track movement reps across frames.`
-**Live Display:** `The annotated RGB frame, coordinate table, and Matplotlib angle trajectory chart render directly in Streamlit.`
+**Live Display:** `The annotated RGB frame, coordinate table, and Matplotlib angle trajectory chart render directly in Streamlit.
+Live Link:https://human-pose-estimation-cp9u8h43zx3jzy5kfiggng.streamlit.app/`
